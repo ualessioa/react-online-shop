@@ -26,7 +26,6 @@ export default function Header({ cart, onUpdateCartItemQuantity }) {
     <>
       <CartModal
         ref={modal}
-        cartItems={cart.items}
         onUpdateCartItemQuantity={onUpdateCartItemQuantity}
         title="Your Cart"
         actions={modalActions}
